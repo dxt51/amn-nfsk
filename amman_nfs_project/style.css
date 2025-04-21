@@ -1,0 +1,100 @@
+body {
+  font-family: 'Tahoma', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+header {
+  background-color: #005f73;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  width: 250px;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  background-color: white;
+}
+
+nav {
+  background-color: #0a9396;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffc107;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #005f73;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #0a9396;
+}
+
+ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #001219;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0a9396;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #007f83;
+}
+
+body.dark-mode {
+  background-color: #222;
+  color: white;
+}
